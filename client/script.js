@@ -85,8 +85,8 @@ and loads the prompt in the chatStripe
   loader(messageDiv);
 
   //fetch data from the server
-
-  const response =await fetch('http://localhost:5000',{
+//before deploying the server we use localhost:5000
+  const response =await fetch('https://codex-chatbot-dq1m.onrender.com',{
     method:'POST',
     headers:{
       'Content-Type':'application/json'
